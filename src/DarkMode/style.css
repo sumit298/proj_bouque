@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  height: 100%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.night {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.night h1,
+.night h2,
+.night div,
+.night textarea {
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.night .buttons {
+  background-color: navy;
+}
+
+.night .view {  background-color: white;}

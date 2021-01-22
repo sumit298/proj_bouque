@@ -1,25 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import DarkModeApp from "./DarkMode";
+import FirebaseSuperChat from "./React-SuperChat";
+// import FormikApp from "./Formik-Practice/Formik-app";
+// import ToursProject from "./Tours-Project";
+// import TourProvider from "./Tours-Project/Context/TourContext";
+// import BirthdayApp from './Birthday-Remainder/BirthdayApp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+      {/* <BirthdayApp/> */}
+      <FirebaseSuperChat />
+      {/* <FormikApp/> */}
+      {/* <DarkModeApp/> */}
+      {/* Hello */}
+      {/* <TourProvider>
+        <ToursProject />
+      </TourProvider> */}
+    </main>
   );
 }
 
