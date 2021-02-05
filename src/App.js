@@ -1,6 +1,7 @@
 import React from "react";
+import FramerMotion from "./Framer-Motion";
 // import DarkModeApp from "./DarkMode";
-import FirebaseSuperChat from "./React-SuperChat";
+// import FirebaseSuperChat from "./React-SuperChat";
 // import FormikApp from "./Formik-Practice/Formik-app";
 // import ToursProject from "./Tours-Project";
 // import TourProvider from "./Tours-Project/Context/TourContext";
@@ -10,10 +11,10 @@ function App() {
   return (
     <main className="App">
       {/* <BirthdayApp/> */}
-      <FirebaseSuperChat />
+      {/* <FirebaseSuperChat /> */}
       {/* <FormikApp/> */}
       {/* <DarkModeApp/> */}
-      {/* Hello */}
+      <FramerMotion/>
       {/* <TourProvider>
         <ToursProject />
       </TourProvider> */}
