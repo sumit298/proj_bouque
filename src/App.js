@@ -1,20 +1,23 @@
 import React from "react";
-import FramerMotion from "./Framer-Motion";
+// import FramerMotion from "./Framer-Motion";
+// import PortFolio from "./Portfolio-Framer-Motion";
 // import DarkModeApp from "./DarkMode";
-// import FirebaseSuperChat from "./React-SuperChat";
+import FirebaseSuperChat from "./React-SuperChat";
 // import FormikApp from "./Formik-Practice/Formik-app";
 // import ToursProject from "./Tours-Project";
 // import TourProvider from "./Tours-Project/Context/TourContext";
 // import BirthdayApp from './Birthday-Remainder/BirthdayApp';
 
+
 function App() {
   return (
     <main className="App">
       {/* <BirthdayApp/> */}
-      {/* <FirebaseSuperChat /> */}
+      <FirebaseSuperChat />
       {/* <FormikApp/> */}
       {/* <DarkModeApp/> */}
-      <FramerMotion/>
+      {/* <FramerMotion/> */}
+      {/* <PortFolio/> */}
       {/* <TourProvider>
         <ToursProject />
       </TourProvider> */}
